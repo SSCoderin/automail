@@ -7,9 +7,8 @@ from email import encoders
 import os
 import streamlit as st
 
-SENDER_EMAIL = "shivkiranchitkulwar123@gmail.com"
-
-SENDER_APP_PASSWORD = st.secrets["SENDER_APP_PASSWORD"]
+sender_email = st.secrets["SENDER_EMAIL"]
+password = st.secrets["SENDER_APP_PASSWORD"]
 
 
 EMAIL_SUBJECT = "Software and AI Developer interested in joining your team"
