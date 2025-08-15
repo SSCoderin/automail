@@ -16,9 +16,11 @@ EMAIL_SUBJECT = "Software and AI Developer interested in joining your team"
 EMAIL_BODY = """
 Respected Sir/Madam,
 
-I am writing to express my keen interest in software development opportunities at your company. I have experience in development and enjoy tackling new challenges.
+I am writing to express my keen interest as a Software & AI Developer opportunities at your company. I have experience in software development, AI solutions, and modern technologies, tackling new challenges.
 
-My resume is attached, which outlines my background in more detail. I am available for an interview at your earliest convenience and look forward to hearing from you.
+I have attached my resume for your review, which highlights my skills, projects and experience in detail. I believe my background aligns well with your requirements.
+
+Thank you for considering my application.I am available for an interview at your earliest convenience.
 
 Sincerely,
 
