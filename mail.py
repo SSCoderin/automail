@@ -7,7 +7,7 @@ from email import encoders
 import os
 import streamlit as st
 
-sender_email = "shivkiranchiktulwar123@gmail.com"
+sender_email = st.secrets["SENDER_EMAIL"]
 password = st.secrets["SENDER_APP_PASSWORD"]
 
 
