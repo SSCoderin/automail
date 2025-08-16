@@ -1,4 +1,3 @@
-
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -7,9 +6,9 @@ from email import encoders
 import os
 import streamlit as st
 
-sender_email = st.secrets["SENDER_EMAIL"]
-password = st.secrets["SENDER_APP_PASSWORD"]
-
+# Load credentials from Streamlit secrets
+SENDER_EMAIL = st.secrets["SENDER_EMAIL"]
+SENDER_APP_PASSWORD = st.secrets["SENDER_APP_PASSWORD"]
 
 EMAIL_SUBJECT = "Software and AI Developer interested in joining your team"
 
@@ -20,10 +19,9 @@ I am writing to express my keen interest as a Software & AI Developer opportunit
 
 I have attached my resume for your review, which highlights my skills, projects and experience in detail. I believe my background aligns well with your requirements.
 
-Thank you for considering my application.I am available for an interview at your earliest convenience.
+Thank you for considering my application. I am available for an interview at your earliest convenience.
 
 Sincerely,
-
 Shivkiran Santosh Chitkulwar
 +91 9921316791
 shivkiranchitkulwar123@gmail.com
@@ -33,7 +31,7 @@ ATTACHMENT_FILENAME = "resume.pdf"
 
 def send_email(recipient_email):
     """
-    Constructs and sends an email using the hardcoded credentials above.
+    Constructs and sends an email using the credentials above.
     Returns a tuple (bool, str) indicating success and a message.
     """
     if not os.path.exists(ATTACHMENT_FILENAME):
