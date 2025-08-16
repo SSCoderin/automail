@@ -25,6 +25,8 @@ if st.button("Send Email"):
 st.write("""
 # LINKEDIN
 
+https://www.linkedin.com/in/shivkiran-chitkulwar-b84a36273/
+
 I'm Shivkiran, a Full Stack & AI developer with 1+ years of experience. I am actively seeking new opportunities and would be grateful if you could consider referring me. I am ready for interview.
 
 # WellFound
